@@ -41,6 +41,25 @@ public class TestShapes {
          Circle has the largest area as 50.24
          */
 
+        Rectangle rectangle = new Rectangle(5.5, 6);
+        Square square = new Square(2.5);
+        Circle circle = new Circle(4.0);
+
+        System.out.println(circle);
+        System.out.println("Area of the Circle is = " + circle.area(4.0));
+        System.out.println("Perimeter of the Circle is = " + circle.perimeter(4.0));
+
+        System.out.println("-------------------------");
+
+        System.out.println(rectangle);
+        System.out.println("Area of rectangle is = " + rectangle.area(5.5));
+        System.out.println("Perimeter of rectangle is = " + rectangle.perimeter(23));
+
+        System.out.println("-------------------------");
+        System.out.println(square);
+        System.out.println("Area of square is = " + square.area(6.25));
+        System.out.println("Perimeter of square is = " + square.perimeter(6.25));
+
 
     }
 }
